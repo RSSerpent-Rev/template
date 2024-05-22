@@ -26,15 +26,15 @@ jobs:
         os: [macos-latest, windows-latest, ubuntu-latest]
       fail-fast: false
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.9
-      - uses: actions/cache@v2
+          python-version: 3.11
+      - uses: actions/cache@v4
         with:
           path: ~/rsserpent-plugin-xxx/.pre-commit
           key: ${{ matrix.os }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/rsserpent-plugin-xxx/.venv
           key: ${{ matrix.os }}-${{ hashFiles('**/pyproject.toml') }}
