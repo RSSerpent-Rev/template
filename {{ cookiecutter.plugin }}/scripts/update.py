@@ -15,7 +15,7 @@ repo = os.path.join(basedir, project)
 
 # create template
 shutil.rmtree(repo, ignore_errors=True)
-subprocess.run(["cookiecutter", "-f", "gh:rsserpent/template", "-o", basedir])
+subprocess.run(["cookiecutter", "-f", "gh:rsserpent-rev/template", "-o", basedir])
 # initial commit
 os.chdir(repo)
 subprocess.run(["git", "checkout", "-b", "master"])

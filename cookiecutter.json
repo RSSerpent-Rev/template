@@ -1,7 +1,7 @@
 {
     "plugin": "rsserpent-plugin-xxx",
     "description": "An rsserpent plugin for {{ cookiecutter.plugin.split('-')[-1] }}.",
-    "username": "queensferryme",
+    "username": "Ekko",
     "link": "https://github.com/{{ cookiecutter.username }}",
     "email": "{{ cookiecutter.username }}@example.com"
 }
