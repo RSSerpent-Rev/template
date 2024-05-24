@@ -55,6 +55,7 @@ repos:
         additional_dependencies:
           - pytest==6.2.5
           - rsserpent-rev>=0.1.4
+          - types-lxml
   - repo: https://github.com/PyCQA/flake8
     rev: 7.0.0
     hooks:

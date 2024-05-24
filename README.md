@@ -12,7 +12,7 @@ sudo apt install cookiecutter
 ```
 Then
 ```bash
-cookiecutter gh:rsserpent/template
+cookiecutter gh:rsserpent-rev/template
 ```
 It's all set! Happy hacking with RSSerpent 🎉
 
