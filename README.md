@@ -16,4 +16,4 @@ cookiecutter gh:rsserpent-rev/template
 ```
 It's all set! Happy hacking with RSSerpent 🎉
 
-Check out the official [documentation](https://docs.rsserpent.com/stable/contribution/plugin/) for detailed plugin developmental guide.
+Check out the official [documentation](https://rsserpent-rev.github.io/RSSerpent/latest/contribution/plugin/) for detailed plugin developmental guide.
