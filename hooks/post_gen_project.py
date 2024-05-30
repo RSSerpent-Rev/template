@@ -4,7 +4,6 @@ import os
 import subprocess
 from tempfile import gettempdir
 
-
 subprocess.run(["git", "init"])
 curdir = os.path.normcase(os.getcwd())
 tmpdir = os.path.normcase(os.path.realpath(gettempdir()))
