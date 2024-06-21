@@ -1,9 +1,10 @@
 from typing import Any
+from rsserpent_rev.models import Feed
 
 path = "/{{ cookiecutter.plugin.removeprefix('rsserpent-plugin-') }}"
 
 
-async def provider() -> dict[str, Any]:
+async def provider() -> Feed:
     """Define a basic example data provider function."""
     return {
         "title": "Example",
